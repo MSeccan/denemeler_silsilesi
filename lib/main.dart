@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'splash_screen.dart';
 import 'welcome_page.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'app_theme.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
 
       theme: AppTheme.getTheme(role),
 
-      home: const WelcomePage(),
+      home: const SplashScreen(),
     );
   }
 }
